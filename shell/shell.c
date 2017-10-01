@@ -41,7 +41,7 @@ int main(int argc, char** argv, char** envp)
 			}
 			else if(pid == 0)	//Child process created successfully
 			{
-				for(int i = 0; envp[i] != (char*)0; i++)	//Traverse envp[]
+				for(int i = 0; envp[i] != '\0'; i++)	//Traverse envp[]
 				{
 					tempVec = Mytoc(envp[i], '=');	//Identify key and value by tokenizing with '='
 
