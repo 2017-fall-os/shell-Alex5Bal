@@ -14,7 +14,7 @@ int main(int argc, char** argv, char** envp)
 	char** path;	//Stores the value of PATH
 	char* string;	//Stores the buffer input
 	char* command;	//Stores the command given by the user
-	int pid;		//Stores value of child process after fork()
+	int pid;        //Stores value of child process after fork()
 
 	while(1)
 	{
