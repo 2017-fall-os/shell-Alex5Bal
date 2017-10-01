@@ -23,7 +23,7 @@ int main(int argc, char** argv, char** envp)
 		write(1, "$ ", 1);
 		read(0, string, BUFFERSIZE);	//Read buffer input into 'string'
 
-		removeNewLine(string);
+		removeNewLine(string);    //Remove '\n' character from the end of the input string
 
 		if(string[0] == 'X')
 			exit(0);
