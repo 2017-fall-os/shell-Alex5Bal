@@ -69,7 +69,7 @@ int main(int argc, char** argv, char** envp)
 				{
 					free(args[0]);	/** Ready args[0] to store the complete path **/
 					args[0] = strCat(path[j], command);	/** args[0] contains complete path **/
-					printf("%s\n", args[0]);
+					//printf("%s\n", args[0]);
 					execve(args[0], args, envp);	/** Execute the complete path if valid **/
 				}
 
