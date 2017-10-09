@@ -13,5 +13,5 @@
   - shell.c: source file containing the segment of the code responsible for having the program perform shell commands.
   - mytoc.c: source file containing the functions used to implement a tokenizer.
   - mytoc.h: header file containing the signatures of each function defined in mytoc.c.
-  - mystrlib.c:
+  - mystrlib.c: source file containing functions that perform simple string manipulations. 
   - mystrlib.h: header file containing the signatures of each function defined in mystrlib.c.
