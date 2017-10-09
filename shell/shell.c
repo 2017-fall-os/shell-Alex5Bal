@@ -4,8 +4,8 @@
  * Professor: Dr. Freudenthal
  * Project: Shell
  *
- * Description: The following program implements a string tokenizer. This implementation works by taking a string, partitioning
- * 				its individual tokens by the ' ' character, then storing each token into a vector.
+ * Description: This program performs typical shell commands as directed by the user. At this time
+ * 				only simple single commands are supported.
  */
 #include <stdio.h>
 #include <stdlib.h>
